@@ -7,25 +7,51 @@
 </head>
 <body>
 
-<header>
-    <h2>Diamond Auto Detailing</h2>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">Book Appointment</a>
-        <a href="#">Login</a>
-    </nav>
-</header>
+    <!-- ADMIN LOGIN -->
+    <a href="#" class="admin-login" onclick="adminLogin()">Admin Log In</a>
 
-<section>
-    <h1>Professional Auto Detailing Services</h1>
-    <p>Car and motorcycle detailing with easy online booking.</p>
-    <button>Book Appointment</button>
-</section>
+    <!-- MAIN CONTAINER -->
+    <div class="container">
 
-<footer>
-    <p>© Diamond Auto Detailing</p>
-</footer>
+        <!-- LOGO -->
+        <div class="logo">
+            <img src="https://via.placeholder.com/300x120?text=DIAMOND+AUTO+DETAILING" alt="Diamond Auto Detailing Logo">
+        </div>
+
+        <!-- DESCRIPTION -->
+        <p class="description">
+            Premium automotive detailing services that make your vehicle shine like a diamond.
+            Professional care for cars and motorcycles.
+        </p>
+
+        <!-- BUTTONS -->
+        <div class="buttons">
+            <button onclick="bookNow()">Book Now</button>
+            <button onclick="signIn()">Sign In</button>
+        </div>
+
+        <!-- PLACEHOLDER CARDS -->
+        <div class="cards">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+
+    </div>
+
+    <script>
+        function bookNow() {
+            alert("Book Appointment page coming next!");
+        }
+
+        function signIn() {
+            alert("Sign In page coming next!");
+        }
+
+        function adminLogin() {
+            alert("Admin Login page coming next!");
+        }
+    </script>
 
 </body>
 </html>
